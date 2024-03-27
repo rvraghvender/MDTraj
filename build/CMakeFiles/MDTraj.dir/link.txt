@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/MDTraj.dir/src/main.cpp.o -o MDTraj  libcore.a 
+/usr/bin/g++-11 CMakeFiles/MDTraj.dir/src/main.cpp.o -o MDTraj  libcore.a 

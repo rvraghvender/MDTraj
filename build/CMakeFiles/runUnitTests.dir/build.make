@@ -73,29 +73,29 @@ CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o: CMakeFiles/runUnitTests
 CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o: ../tests/test_xyz_reader.cpp
 CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/C++/MDTraj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o -MF CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o.d -o CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o -c /mnt/d/C++/MDTraj/tests/test_xyz_reader.cpp
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o -MF CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o.d -o CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o -c /mnt/d/C++/MDTraj/tests/test_xyz_reader.cpp
 
 CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/C++/MDTraj/tests/test_xyz_reader.cpp > CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.i
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/C++/MDTraj/tests/test_xyz_reader.cpp > CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.i
 
 CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/C++/MDTraj/tests/test_xyz_reader.cpp -o CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.s
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/C++/MDTraj/tests/test_xyz_reader.cpp -o CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.s
 
 CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o: ../tests/test_rdf_calculator.cpp
 CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/C++/MDTraj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o -MF CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o.d -o CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o -c /mnt/d/C++/MDTraj/tests/test_rdf_calculator.cpp
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o -MF CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o.d -o CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o -c /mnt/d/C++/MDTraj/tests/test_rdf_calculator.cpp
 
 CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/C++/MDTraj/tests/test_rdf_calculator.cpp > CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.i
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/C++/MDTraj/tests/test_rdf_calculator.cpp > CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.i
 
 CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/C++/MDTraj/tests/test_rdf_calculator.cpp -o CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.s
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/C++/MDTraj/tests/test_rdf_calculator.cpp -o CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.s
 
 # Object files for target runUnitTests
 runUnitTests_OBJECTS = \

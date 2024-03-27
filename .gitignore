@@ -34,3 +34,6 @@
 
 # Trajectory files
 *.xyz
+
+# build files
+build/

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o -o runUnitTests  libcore.a lib/libgtest.a lib/libgtest_main.a -lpthread lib/libgtest.a 
+/usr/bin/g++-11 CMakeFiles/runUnitTests.dir/tests/test_xyz_reader.cpp.o CMakeFiles/runUnitTests.dir/tests/test_rdf_calculator.cpp.o -o runUnitTests  libcore.a lib/libgtest.a lib/libgtest_main.a -lpthread lib/libgtest.a 

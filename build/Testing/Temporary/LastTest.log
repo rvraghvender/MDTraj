@@ -1,10 +1,10 @@
-Start testing: Mar 27 18:35 CET
+Start testing: Mar 27 18:46 CET
 ----------------------------------------------------------
 1/9 Testing: XYZReaderTest.SuccessfullyReadsFile
 1/9 Test: XYZReaderTest.SuccessfullyReadsFile
 Command: "/mnt/d/C++/MDTraj/build/runUnitTests" "--gtest_filter=XYZReaderTest.SuccessfullyReadsFile" "--gtest_also_run_disabled_tests"
 Directory: /mnt/d/C++/MDTraj/build
-"XYZReaderTest.SuccessfullyReadsFile" start time: Mar 27 18:35 CET
+"XYZReaderTest.SuccessfullyReadsFile" start time: Mar 27 18:46 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/d/C++/MDTraj/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -13,35 +13,8 @@ Note: Google Test filter = XYZReaderTest.SuccessfullyReadsFile
 [----------] Global test environment set-up.
 [----------] 1 test from XYZReaderTest
 [ RUN      ] XYZReaderTest.SuccessfullyReadsFile
-[       OK ] XYZReaderTest.SuccessfullyReadsFile (2 ms)
-[----------] 1 test from XYZReaderTest (2 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (2 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.02 sec
-----------------------------------------------------------
-Test Passed.
-"XYZReaderTest.SuccessfullyReadsFile" end time: Mar 27 18:35 CET
-"XYZReaderTest.SuccessfullyReadsFile" time elapsed: 00:00:00
-----------------------------------------------------------
-
-2/9 Testing: XYZReaderTest.ReadsCorrectNumberOfAtoms
-2/9 Test: XYZReaderTest.ReadsCorrectNumberOfAtoms
-Command: "/mnt/d/C++/MDTraj/build/runUnitTests" "--gtest_filter=XYZReaderTest.ReadsCorrectNumberOfAtoms" "--gtest_also_run_disabled_tests"
-Directory: /mnt/d/C++/MDTraj/build
-"XYZReaderTest.ReadsCorrectNumberOfAtoms" start time: Mar 27 18:35 CET
-Output:
-----------------------------------------------------------
-Running main() from /mnt/d/C++/MDTraj/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = XYZReaderTest.ReadsCorrectNumberOfAtoms
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from XYZReaderTest
-[ RUN      ] XYZReaderTest.ReadsCorrectNumberOfAtoms
-[       OK ] XYZReaderTest.ReadsCorrectNumberOfAtoms (3 ms)
-[----------] 1 test from XYZReaderTest (3 ms total)
+[       OK ] XYZReaderTest.SuccessfullyReadsFile (1 ms)
+[----------] 1 test from XYZReaderTest (1 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (3 ms total)
@@ -50,7 +23,34 @@ Note: Google Test filter = XYZReaderTest.ReadsCorrectNumberOfAtoms
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"XYZReaderTest.ReadsCorrectNumberOfAtoms" end time: Mar 27 18:35 CET
+"XYZReaderTest.SuccessfullyReadsFile" end time: Mar 27 18:46 CET
+"XYZReaderTest.SuccessfullyReadsFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/9 Testing: XYZReaderTest.ReadsCorrectNumberOfAtoms
+2/9 Test: XYZReaderTest.ReadsCorrectNumberOfAtoms
+Command: "/mnt/d/C++/MDTraj/build/runUnitTests" "--gtest_filter=XYZReaderTest.ReadsCorrectNumberOfAtoms" "--gtest_also_run_disabled_tests"
+Directory: /mnt/d/C++/MDTraj/build
+"XYZReaderTest.ReadsCorrectNumberOfAtoms" start time: Mar 27 18:46 CET
+Output:
+----------------------------------------------------------
+Running main() from /mnt/d/C++/MDTraj/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = XYZReaderTest.ReadsCorrectNumberOfAtoms
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from XYZReaderTest
+[ RUN      ] XYZReaderTest.ReadsCorrectNumberOfAtoms
+[       OK ] XYZReaderTest.ReadsCorrectNumberOfAtoms (2 ms)
+[----------] 1 test from XYZReaderTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"XYZReaderTest.ReadsCorrectNumberOfAtoms" end time: Mar 27 18:46 CET
 "XYZReaderTest.ReadsCorrectNumberOfAtoms" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/9 Test: XYZReaderTest.HandlesEmptyFile
 Command: "/mnt/d/C++/MDTraj/build/runUnitTests" "--gtest_filter=XYZReaderTest.HandlesEmptyFile" "--gtest_also_run_disabled_tests"
 Directory: /mnt/d/C++/MDTraj/build
-"XYZReaderTest.HandlesEmptyFile" start time: Mar 27 18:35 CET
+"XYZReaderTest.HandlesEmptyFile" start time: Mar 27 18:46 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/d/C++/MDTraj/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -67,17 +67,17 @@ Note: Google Test filter = XYZReaderTest.HandlesEmptyFile
 [----------] Global test environment set-up.
 [----------] 1 test from XYZReaderTest
 [ RUN      ] XYZReaderTest.HandlesEmptyFile
-[       OK ] XYZReaderTest.HandlesEmptyFile (1 ms)
-[----------] 1 test from XYZReaderTest (1 ms total)
+[       OK ] XYZReaderTest.HandlesEmptyFile (2 ms)
+[----------] 1 test from XYZReaderTest (2 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"XYZReaderTest.HandlesEmptyFile" end time: Mar 27 18:35 CET
+"XYZReaderTest.HandlesEmptyFile" end time: Mar 27 18:46 CET
 "XYZReaderTest.HandlesEmptyFile" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/9 Test: XYZReaderTest.HandlesIncorrectFormat
 Command: "/mnt/d/C++/MDTraj/build/runUnitTests" "--gtest_filter=XYZReaderTest.HandlesIncorrectFormat" "--gtest_also_run_disabled_tests"
 Directory: /mnt/d/C++/MDTraj/build
-"XYZReaderTest.HandlesIncorrectFormat" start time: Mar 27 18:35 CET
+"XYZReaderTest.HandlesIncorrectFormat" start time: Mar 27 18:46 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/d/C++/MDTraj/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -94,17 +94,17 @@ Note: Google Test filter = XYZReaderTest.HandlesIncorrectFormat
 [----------] Global test environment set-up.
 [----------] 1 test from XYZReaderTest
 [ RUN      ] XYZReaderTest.HandlesIncorrectFormat
-[       OK ] XYZReaderTest.HandlesIncorrectFormat (2 ms)
-[----------] 1 test from XYZReaderTest (2 ms total)
+[       OK ] XYZReaderTest.HandlesIncorrectFormat (1 ms)
+[----------] 1 test from XYZReaderTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (2 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"XYZReaderTest.HandlesIncorrectFormat" end time: Mar 27 18:35 CET
+"XYZReaderTest.HandlesIncorrectFormat" end time: Mar 27 18:46 CET
 "XYZReaderTest.HandlesIncorrectFormat" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/9 Test: XYZReaderTest.HandlesFileNotFound
 Command: "/mnt/d/C++/MDTraj/build/runUnitTests" "--gtest_filter=XYZReaderTest.HandlesFileNotFound" "--gtest_also_run_disabled_tests"
 Directory: /mnt/d/C++/MDTraj/build
-"XYZReaderTest.HandlesFileNotFound" start time: Mar 27 18:35 CET
+"XYZReaderTest.HandlesFileNotFound" start time: Mar 27 18:46 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/d/C++/MDTraj/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -121,17 +121,17 @@ Note: Google Test filter = XYZReaderTest.HandlesFileNotFound
 [----------] Global test environment set-up.
 [----------] 1 test from XYZReaderTest
 [ RUN      ] XYZReaderTest.HandlesFileNotFound
-[       OK ] XYZReaderTest.HandlesFileNotFound (1 ms)
-[----------] 1 test from XYZReaderTest (1 ms total)
+[       OK ] XYZReaderTest.HandlesFileNotFound (0 ms)
+[----------] 1 test from XYZReaderTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"XYZReaderTest.HandlesFileNotFound" end time: Mar 27 18:35 CET
+"XYZReaderTest.HandlesFileNotFound" end time: Mar 27 18:46 CET
 "XYZReaderTest.HandlesFileNotFound" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/9 Test: XYZReaderTest.HandlesLargeFile
 Command: "/mnt/d/C++/MDTraj/build/runUnitTests" "--gtest_filter=XYZReaderTest.HandlesLargeFile" "--gtest_also_run_disabled_tests"
 Directory: /mnt/d/C++/MDTraj/build
-"XYZReaderTest.HandlesLargeFile" start time: Mar 27 18:35 CET
+"XYZReaderTest.HandlesLargeFile" start time: Mar 27 18:46 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/d/C++/MDTraj/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -148,17 +148,17 @@ Note: Google Test filter = XYZReaderTest.HandlesLargeFile
 [----------] Global test environment set-up.
 [----------] 1 test from XYZReaderTest
 [ RUN      ] XYZReaderTest.HandlesLargeFile
-[       OK ] XYZReaderTest.HandlesLargeFile (1632 ms)
-[----------] 1 test from XYZReaderTest (1632 ms total)
+[       OK ] XYZReaderTest.HandlesLargeFile (1767 ms)
+[----------] 1 test from XYZReaderTest (1767 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1632 ms total)
+[==========] 1 test from 1 test suite ran. (1767 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   1.65 sec
+Test time =   1.79 sec
 ----------------------------------------------------------
 Test Passed.
-"XYZReaderTest.HandlesLargeFile" end time: Mar 27 18:35 CET
+"XYZReaderTest.HandlesLargeFile" end time: Mar 27 18:46 CET
 "XYZReaderTest.HandlesLargeFile" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/9 Test: RDFCalculatorTest.CalculatesRDFOnCubicLattice
 Command: "/mnt/d/C++/MDTraj/build/runUnitTests" "--gtest_filter=RDFCalculatorTest.CalculatesRDFOnCubicLattice" "--gtest_also_run_disabled_tests"
 Directory: /mnt/d/C++/MDTraj/build
-"RDFCalculatorTest.CalculatesRDFOnCubicLattice" start time: Mar 27 18:35 CET
+"RDFCalculatorTest.CalculatesRDFOnCubicLattice" start time: Mar 27 18:46 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/d/C++/MDTraj/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -182,10 +182,10 @@ Note: Google Test filter = RDFCalculatorTest.CalculatesRDFOnCubicLattice
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"RDFCalculatorTest.CalculatesRDFOnCubicLattice" end time: Mar 27 18:35 CET
+"RDFCalculatorTest.CalculatesRDFOnCubicLattice" end time: Mar 27 18:46 CET
 "RDFCalculatorTest.CalculatesRDFOnCubicLattice" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/9 Test: RDFCalculatorTest.HandlesEmptyAtomSet
 Command: "/mnt/d/C++/MDTraj/build/runUnitTests" "--gtest_filter=RDFCalculatorTest.HandlesEmptyAtomSet" "--gtest_also_run_disabled_tests"
 Directory: /mnt/d/C++/MDTraj/build
-"RDFCalculatorTest.HandlesEmptyAtomSet" start time: Mar 27 18:35 CET
+"RDFCalculatorTest.HandlesEmptyAtomSet" start time: Mar 27 18:46 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/d/C++/MDTraj/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -209,10 +209,10 @@ Note: Google Test filter = RDFCalculatorTest.HandlesEmptyAtomSet
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"RDFCalculatorTest.HandlesEmptyAtomSet" end time: Mar 27 18:35 CET
+"RDFCalculatorTest.HandlesEmptyAtomSet" end time: Mar 27 18:46 CET
 "RDFCalculatorTest.HandlesEmptyAtomSet" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/9 Test: RDFCalculatorTest.HandlesSingleAtom
 Command: "/mnt/d/C++/MDTraj/build/runUnitTests" "--gtest_filter=RDFCalculatorTest.HandlesSingleAtom" "--gtest_also_run_disabled_tests"
 Directory: /mnt/d/C++/MDTraj/build
-"RDFCalculatorTest.HandlesSingleAtom" start time: Mar 27 18:35 CET
+"RDFCalculatorTest.HandlesSingleAtom" start time: Mar 27 18:46 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/d/C++/MDTraj/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -236,11 +236,11 @@ Note: Google Test filter = RDFCalculatorTest.HandlesSingleAtom
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"RDFCalculatorTest.HandlesSingleAtom" end time: Mar 27 18:35 CET
+"RDFCalculatorTest.HandlesSingleAtom" end time: Mar 27 18:46 CET
 "RDFCalculatorTest.HandlesSingleAtom" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 27 18:35 CET
+End testing: Mar 27 18:46 CET

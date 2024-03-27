@@ -73,15 +73,15 @@ CMakeFiles/MDTraj.dir/src/main.cpp.o: CMakeFiles/MDTraj.dir/flags.make
 CMakeFiles/MDTraj.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/MDTraj.dir/src/main.cpp.o: CMakeFiles/MDTraj.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/C++/MDTraj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MDTraj.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MDTraj.dir/src/main.cpp.o -MF CMakeFiles/MDTraj.dir/src/main.cpp.o.d -o CMakeFiles/MDTraj.dir/src/main.cpp.o -c /mnt/d/C++/MDTraj/src/main.cpp
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MDTraj.dir/src/main.cpp.o -MF CMakeFiles/MDTraj.dir/src/main.cpp.o.d -o CMakeFiles/MDTraj.dir/src/main.cpp.o -c /mnt/d/C++/MDTraj/src/main.cpp
 
 CMakeFiles/MDTraj.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MDTraj.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/C++/MDTraj/src/main.cpp > CMakeFiles/MDTraj.dir/src/main.cpp.i
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/C++/MDTraj/src/main.cpp > CMakeFiles/MDTraj.dir/src/main.cpp.i
 
 CMakeFiles/MDTraj.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MDTraj.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/C++/MDTraj/src/main.cpp -o CMakeFiles/MDTraj.dir/src/main.cpp.s
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/C++/MDTraj/src/main.cpp -o CMakeFiles/MDTraj.dir/src/main.cpp.s
 
 # Object files for target MDTraj
 MDTraj_OBJECTS = \

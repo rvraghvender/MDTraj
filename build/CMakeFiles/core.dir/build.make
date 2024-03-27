@@ -73,29 +73,29 @@ CMakeFiles/core.dir/src/XYZReader.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/src/XYZReader.cpp.o: ../src/XYZReader.cpp
 CMakeFiles/core.dir/src/XYZReader.cpp.o: CMakeFiles/core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/C++/MDTraj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/src/XYZReader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core.dir/src/XYZReader.cpp.o -MF CMakeFiles/core.dir/src/XYZReader.cpp.o.d -o CMakeFiles/core.dir/src/XYZReader.cpp.o -c /mnt/d/C++/MDTraj/src/XYZReader.cpp
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core.dir/src/XYZReader.cpp.o -MF CMakeFiles/core.dir/src/XYZReader.cpp.o.d -o CMakeFiles/core.dir/src/XYZReader.cpp.o -c /mnt/d/C++/MDTraj/src/XYZReader.cpp
 
 CMakeFiles/core.dir/src/XYZReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/XYZReader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/C++/MDTraj/src/XYZReader.cpp > CMakeFiles/core.dir/src/XYZReader.cpp.i
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/C++/MDTraj/src/XYZReader.cpp > CMakeFiles/core.dir/src/XYZReader.cpp.i
 
 CMakeFiles/core.dir/src/XYZReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/XYZReader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/C++/MDTraj/src/XYZReader.cpp -o CMakeFiles/core.dir/src/XYZReader.cpp.s
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/C++/MDTraj/src/XYZReader.cpp -o CMakeFiles/core.dir/src/XYZReader.cpp.s
 
 CMakeFiles/core.dir/src/RDFCalculator.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/src/RDFCalculator.cpp.o: ../src/RDFCalculator.cpp
 CMakeFiles/core.dir/src/RDFCalculator.cpp.o: CMakeFiles/core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/C++/MDTraj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/src/RDFCalculator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core.dir/src/RDFCalculator.cpp.o -MF CMakeFiles/core.dir/src/RDFCalculator.cpp.o.d -o CMakeFiles/core.dir/src/RDFCalculator.cpp.o -c /mnt/d/C++/MDTraj/src/RDFCalculator.cpp
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core.dir/src/RDFCalculator.cpp.o -MF CMakeFiles/core.dir/src/RDFCalculator.cpp.o.d -o CMakeFiles/core.dir/src/RDFCalculator.cpp.o -c /mnt/d/C++/MDTraj/src/RDFCalculator.cpp
 
 CMakeFiles/core.dir/src/RDFCalculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/RDFCalculator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/C++/MDTraj/src/RDFCalculator.cpp > CMakeFiles/core.dir/src/RDFCalculator.cpp.i
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/C++/MDTraj/src/RDFCalculator.cpp > CMakeFiles/core.dir/src/RDFCalculator.cpp.i
 
 CMakeFiles/core.dir/src/RDFCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/RDFCalculator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/C++/MDTraj/src/RDFCalculator.cpp -o CMakeFiles/core.dir/src/RDFCalculator.cpp.s
+	/usr/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/C++/MDTraj/src/RDFCalculator.cpp -o CMakeFiles/core.dir/src/RDFCalculator.cpp.s
 
 # Object files for target core
 core_OBJECTS = \
