@@ -1,0 +1,10 @@
+XYZReaderTest.SuccessfullyReadsFile 1 0.0234563
+XYZReaderTest.ReadsCorrectNumberOfAtoms 1 0.0256703
+XYZReaderTest.HandlesEmptyFile 1 0.0243893
+XYZReaderTest.HandlesIncorrectFormat 1 0.0237877
+XYZReaderTest.HandlesFileNotFound 1 0.0225687
+XYZReaderTest.HandlesLargeFile 1 1.65403
+RDFCalculatorTest.CalculatesRDFOnCubicLattice 1 0.0230015
+RDFCalculatorTest.HandlesEmptyAtomSet 1 0.0236634
+RDFCalculatorTest.HandlesSingleAtom 1 0.021942
+---

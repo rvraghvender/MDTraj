@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore.a CMakeFiles/core.dir/src/XYZReader.cpp.o CMakeFiles/core.dir/src/RDFCalculator.cpp.o
+/usr/bin/ranlib libcore.a
