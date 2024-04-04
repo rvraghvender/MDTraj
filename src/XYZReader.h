@@ -5,24 +5,33 @@
 #include <vector>
 #include <fstream>
 
+using std::string;
+using std::vector;
+using std::ifstream;
+
+
 // Define a structure to hold atom data
 struct Atom {
-	std::string symbol;
-	float x, y, z;
+	string symbol;
+	double x, y, z;
 };
+
+
 
 // Define a class to read XYZ files
 class XYZReader {
+	
+	string filename;
+	ifstream fileStream;
+	
 	public:
-		XYZReader(const std::string& filename);
+		XYZReader(const string& filename);
 		~XYZReader();
 	
 		bool openFile();
-		bool readNextFrame(std::vector<Atom>& atoms);
+		bool readNextFrame(vector<Atom>& atoms);
+		
 	
-	private:
-		std::string filename;
-		std::ifstream fileStream; 
 };
 
 #endif // XYZREADER_H

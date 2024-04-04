@@ -4,21 +4,26 @@
 #include <vector>
 #include "XYZReader.h"
 
+using std::vector;
+using std::pair;
+
+
 class RDFCalculator {
 	public:
-		RDFCalculator(double binSize, double maxDistance);
-		std::vector<std::pair<double, double>> computeRDF(const std::vector<Atom> &atoms);
+		RDFCalculator(double binSize, double maxDistance, double boxLength);
+		vector<pair<double, double>> computeRDF(const vector<Atom> &atoms);
 
 	private:
 		double binSize;
 		double maxDistance;
-		std::vector<double> distances;
-		std::vector<int> distribution;
+		double boxLength;
+		vector<double> distances;
+		vector<int> distribution;
 
-		void calculateDistances(const std::vector<Atom>& atoms);
+		void calculateDistances(const vector<Atom>& atoms);
 		void calculateDistribution();
 
-		double calculateDistance(const Atom& atom1, const Atom& atom2);
+		double calculateDistance(const Atom& atom1, const Atom& atom2, const double boxLength);
 };
 
 #endif // RDFCALCULATOR_H

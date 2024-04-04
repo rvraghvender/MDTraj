@@ -2,39 +2,47 @@
 #include "XYZReader.h"
 #include <sstream>
 
-XYZReader::XYZReader(const std::string& filename) : filename(filename) {}
+using std::istringstream;
+using std::string;
+using std::getline;
+using std::stoul;  // Converts string to unsigned integer
+using std::size_t;
+using std::vector;
 
-XYZReader::~XYZReader() {
+
+XYZReader :: XYZReader(const string& filename) : filename(filename) {}
+
+XYZReader :: ~XYZReader() {
 	if (fileStream.is_open()){
-		fileStream.close();
+	    fileStream.close();
 	}
 }
 
-
-bool XYZReader::openFile() {
+bool XYZReader :: openFile() {
 	fileStream.open(filename);
 	return fileStream.is_open();
 }
 
-bool XYZReader::readNextFrame(std::vector<Atom>& atoms) {
-	std::string line;
-	std::size_t numAtoms;
+bool XYZReader :: readNextFrame(vector<Atom>& atoms) {
+	
+	string line;
+	size_t numAtoms;
 
 	// Clear previous atoms
 	atoms.clear();
 
 	// Read number of atoms
-	if (!std::getline(fileStream, line)) return false;
-	numAtoms = std::stoul(line);
+	if (!getline(fileStream, line)) return false;
+	numAtoms = stoul(line); // stout :: converts string to unsigned integer
 
 	// Skip comment line
-	if (!std::getline(fileStream, line)) return false;
+	if (!getline(fileStream, line)) return false;
 
 	// Read atoms
-	for (std::size_t i = 0; i < numAtoms; ++i) {
-		if (!std::getline(fileStream, line)) return false;
+	for (size_t i = 0; i < numAtoms; ++i) {
+		if (!getline(fileStream, line)) return false;
 		Atom atom;
-                std::istringstream iss(line);
+                istringstream iss(line);
 		if (!(iss >> atom.symbol >> atom.x >> atom.y >> atom.z)) return false;
 		atoms.push_back(atom);
 	}

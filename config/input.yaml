@@ -1,0 +1,6 @@
+FILENAME: snap.xyz
+
+PARAMETERS:
+  lattice_constant: 15.9810
+  bin_width: 0.1
+  max_distance: 7.0

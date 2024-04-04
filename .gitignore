@@ -36,4 +36,4 @@
 *.xyz
 
 # build files
-build/
+build/*

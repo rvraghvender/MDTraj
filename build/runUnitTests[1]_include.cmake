@@ -1,5 +1,0 @@
-if(EXISTS "/mnt/d/C++/MDTraj/build/runUnitTests[1]_tests.cmake")
-  include("/mnt/d/C++/MDTraj/build/runUnitTests[1]_tests.cmake")
-else()
-  add_test(runUnitTests_NOT_BUILT runUnitTests_NOT_BUILT)
-endif()
