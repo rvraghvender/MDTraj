@@ -38,10 +38,10 @@ int main(int argc, char* argv[]) {
 
 
 
-        string filename = configuration["FILENAME"].as<string>();
+    string filename = configuration["FILENAME"].as<string>();
 	double binSize = configuration["PARAMETERS"]["bin_width"].as<double>();
-        double maxDistance = configuration["PARAMETERS"]["max_distance"].as<double>();
-        double boxLength = configuration["PARAMETERS"]["lattice_constant"].as<double>();
+    double maxDistance = configuration["PARAMETERS"]["max_distance"].as<double>();
+    double boxLength = configuration["PARAMETERS"]["lattice_constant"].as<double>();
 	
 
 	XYZReader reader(filename);
@@ -56,10 +56,12 @@ int main(int argc, char* argv[]) {
 	vector<Atom> atoms;
 	vector<vector<pair<double, double>>> allRDFs;
 
+	int frameCount = 1;
 	while(reader.readNextFrame(atoms)) {
 		auto rdf = calculator.computeRDF(atoms);
 		allRDFs.push_back(rdf);
-		cout<< "Read a frame with " << atoms.size() << " atoms." <<"\n";
+		cout<< "Read a frame "<< frameCount << " with " << atoms.size() << " atoms." <<"\n";
+		frameCount += 1;
 	}
 
 	// Now, we should average the RDFs from allRDFs. 

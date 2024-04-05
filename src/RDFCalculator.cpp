@@ -1,27 +1,33 @@
 #include "RDFCalculator.h"
 #include <cmath>
 #include <algorithm>
-
+#define M_PI   3.14159265358979323846  /* pi */
 
 using std::pair;
 using std::vector;
 
+
 RDFCalculator::RDFCalculator(double binSize, double maxDistance, double boxLength)
     : binSize(binSize), maxDistance(maxDistance), boxLength(boxLength) {}
 
-std::vector<pair<double, double>> RDFCalculator::computeRDF(const vector<Atom>& atoms) {
+vector<pair<double, double>> RDFCalculator::computeRDF(const vector<Atom>& atoms) {
     
     // If the file is empty (For passing tests)
     if (atoms.size() < 2)  return {};
-    
-	
+    	
     calculateDistances(atoms);
     calculateDistribution();
+
+    double rhoBox = atoms.size() / (std::pow(boxLength, 3));
 
     vector<pair<double, double>> rdf;
     for (size_t i = 0; i < distribution.size(); ++i) {
         double r = binSize * (i + 0.5);
-        rdf.push_back({r, distribution[i]});
+        double outerRadius = r + binSize / 2.0;
+        double innerRadius = r - binSize / 2.0;
+        double volumeShell = (4.0/3.0) * M_PI * (pow(outerRadius, 3) - pow(innerRadius, 3)); // Shell volume
+        double normalizeDensity = distribution[i] / (rhoBox * volumeShell);
+        rdf.push_back({r, normalizeDensity * (2.0 / atoms.size())}); // Don't know
     }
 
     return rdf;
